@@ -209,7 +209,7 @@ const techStackIcons = [
 const expCards = [
   {
     review:
-      "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+      "Rahul brought both technical depth and a collaborative spirit to our team at Symbios. Their contributions were instrumental in enhancing our enterprise software — from building robust RESTful APIs for authentication, payments, and third-party integrations (WhatsApp, SMS, Email) to optimizing SQL queries and server performance for better reliability. They also supported our React Native app, improving API integration and user interactions. Their work made a real difference in both performance and user experience.",
     imgPath: "/images/exp11.png",
     logoPath: "/images/symbios.png",
     title: "Full Stack Developer",
@@ -222,7 +222,7 @@ const expCards = [
   },
   {
     review:
-      "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+      "Rahul’s contributions as an IT Faculty at IIHT were exceptional. He brought clarity and energy to every session, effectively teaching a wide range of courses from CCA and PGDCA to web development with HTML5, CSS3, and JavaScript. His ability to simplify complex programming languages like Python, C, C++, Visual Basic, and SQL helped students build a strong foundation. He approaches teaching with passion and a problem-solving mindset, making a lasting impact on learners.",
     imgPath: "/images/exp12.png",
     logoPath: "/images/iiht.png",
     title: "It Faculty",
@@ -234,7 +234,7 @@ const expCards = [
   },
   {
     review:
-      "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+      "Rahul brought dedication and clarity to his role as Guest Faculty at Mahendra’s. He effectively prepared students for the NSSB examination by delivering a well-structured computer science curriculum tailored to their needs. His sessions at Tesco College, under our extended partnership, reflected his commitment to student success and his ability to communicate complex topics with ease. His contribution made a meaningful impact in a short time.",
     imgPath: "/images/exp13.png",
     logoPath: "/images/mahindral.png",
     title: "Guest Faculty",
