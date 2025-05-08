@@ -227,3 +227,29 @@ git clone https://github.com/rjrahul007/3D-portfolio.git
 cd 3D-portfolio
 
 ```
+
+**Installation**
+Install the project dependencies using npm:
+
+```bash
+npm install
+
+```
+
+**Set Up Environment Variables**
+
+Create a new file named `.env` in the root of your project and add the following content:
+
+```env
+VITE_APP_EMAILJS_SERVICE_ID=
+VITE_APP_EMAILJS_TEMPLATE_ID=
+VITE_APP_EMAILJS_PUBLIC_KEY=
+```
+
+Replace the placeholder values with your actual **[EmailJS](https://www.emailjs.com/)** credentials.
+
+**Running the Project**
+
+```bash
+npm run dev
+```
