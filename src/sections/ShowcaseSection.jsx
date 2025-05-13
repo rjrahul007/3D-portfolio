@@ -1,7 +1,8 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
+import { projects } from "../constants";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -10,6 +11,9 @@ const AppShowcase = () => {
   const rydeRef = useRef(null);
   const libraryRef = useRef(null);
   const ycDirectoryRef = useRef(null);
+
+  const [showAll, setShowAll] = useState(false);
+  const visibleProjects = showAll ? projects : projects.slice(0, 6);
 
   useGSAP(() => {
     // Animation for the main section
@@ -44,54 +48,44 @@ const AppShowcase = () => {
   }, []);
 
   return (
-    <div id="work" ref={sectionRef} className="app-showcase">
-      <div className="w-full">
-        <div className="showcaselayout">
-          <div ref={rydeRef} className="first-project-wrapper">
-            <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Ryde App Interface" />
-            </div>
-            <div className="text-content">
-              <h2>
-                Ace Car Rental | A full-featured car rental platform with secure
-                payments, 24/7 support, and business email setup. Enjoy
-                hassle-free bookings and a wide selection of vehicles for every
-                journey.
-              </h2>
-              <p className="text-white-50 md:text-xl">
-                A website built with React, NodeJs & TailwindCSS for a fast,
-                user-friendly experience.
-              </p>
-            </div>
-          </div>
-
-          <div className="project-list-wrapper overflow-hidden">
-            <div className="project" ref={libraryRef}>
-              <div className="image-wrapper bg-[#FFEFDB]">
+    <div id="work" ref={sectionRef} className="py-24 px-4 max-w-6xl mx-auto">
+      <div className="w-full text-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {/* Project 1 - Ace Car Rentals */}
+          {visibleProjects.map((project, index) => (
+            <div
+              key={index}
+              ref={rydeRef}
+              className="flex flex-col justify-between h-full bg-gray-900 p-6 rounded-2xl shadow-md"
+            >
+              <a
+                className="w-full overflow-hidden rounded-xl transition-transform duration-300 hover:scale-[1.02] block"
+                href={project.href}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img
-                  src="/images/project2.png"
-                  alt="Library Management Platform"
+                  src={project.imageSrc}
+                  alt="Ace Car Rentals"
+                  className="w-full h-64 object-cover"
                 />
+              </a>
+              <div className="flex flex-col gap-3 mt-4">
+                <h2 className="text-xl font-bold">{project.title}</h2>
+                <h5 className="text-sm font-medium text-gray-300">
+                  Tech Stack: {project.techStack}
+                </h5>
+                <p className="text-white text-sm">{project.description}</p>
               </div>
-              <h2>SymBios Broadband Subscriber App</h2>
-              <p className="text-white-50 md:text-xs">
-                An app built with React Native, Expo & TailwindCSS for a fast,
-                user-friendly experience.
-              </p>
             </div>
-
-            <div className="project" ref={ycDirectoryRef}>
-              <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/project3.png" alt="YC Directory App" />
-              </div>
-              <h2>Movie App</h2>
-              <p className="text-white-50 md:text-xs">
-                An app built with React Native, Expo & TailwindCSS for a fast,
-                user-friendly experience.
-              </p>
-            </div>
-          </div>
+          ))}
         </div>
+        <button
+          onClick={() => setShowAll(!showAll)}
+          className="mx-auto mt-6 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 self-center transition duration-300"
+        >
+          {showAll ? "Show Less" : "Show All Projects"}
+        </button>
       </div>
     </div>
   );

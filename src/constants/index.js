@@ -42,6 +42,7 @@ const counterItems = [
   { value: 3, suffix: "+", label: "Years of Experience" },
   { value: 20, suffix: "+", label: "Satisfied Clients" },
   { value: 50, suffix: "+", label: "Completed Projects" },
+  { value: 10, suffix: "+", label: "APIs & Databases Managed" },
 ];
 
 // const logoIconsList = [
@@ -230,6 +231,7 @@ const expCards = [
     responsibilities: [
       "Proficiently taught diverse courses, including CCA, PGDCA, and web development (HTML5, CSS3, and JavaScript) to students, ensuring a comprehensive understanding of the subjects.",
       "Instructed programming languages such as Python, C, C++, Visual Basic, and SQL.",
+      "Utilized a problem-solving approach to teaching, fostering a deep understanding of programming concepts and their practical applications.",
     ],
   },
   {
@@ -242,6 +244,7 @@ const expCards = [
     responsibilities: [
       "Prepared students for the NSSB examination by delivering a tailored curriculum in computer science.",
       "Taught students for the NSSB exam at Tesco College through an extended partnership with Mahendra’s.",
+      "Instrumental in advancing students’ IT knowledge and skills for successful NSSB examination preparation.",
     ],
   },
 ];
@@ -324,6 +327,91 @@ const socialImgs = [
   },
 ];
 
+const projects = [
+  {
+    href: "https://www.acecarrentals.in/",
+    imageSrc: "/images/project1.png",
+    title: "🚗 Ace Car Rentals – Self-Drive Car Booking Platform",
+    techStack:
+      "React.js • Node.js • Firebase • PayU • Nodemailer • Tailwind CSS",
+    description:
+      "A full-stack car rental website where users can book self-drive cars on a daily basis. Built with React, Node.js, and Firebase. Integrated PayU for payments and Nodemailer for email confirmations.",
+  },
+  {
+    href: "https://play.google.com/store/apps/details?id=com.symbios&hl=en",
+    imageSrc: "/images/project2.webp",
+    title: "📱 Symbios Subscriber App – Broadband & WiFi Utility",
+    techStack: "React Native • Expo • Tailwind CSS • .Net • SQL",
+    description:
+      "A mobile app to manage broadband and WiFi services: pay bills, view receipts, and get WhatsApp notifications. Built with React Native and .NET backend.",
+  },
+  {
+    href: "https://movie-website-rose-alpha.vercel.app/",
+    imageSrc: "/images/project3.png",
+    title: "🎬 Movie Explorer – React-Based Movie Website",
+    techStack: "React.js • TMDB API • Appwrite • Tailwind CSS",
+    description:
+      "A modern responsive website that uses TMDB API to show trending, top-rated, and upcoming movies. Built with React and Appwrite backend.",
+  },
+  {
+    href: "https://rjrahul007.github.io/TinDog/",
+    imageSrc: "/images/project5.png",
+    title: "🐶 TinDog – Tinder for Dogs",
+    techStack: "HTML • CSS • Bootstrap",
+    description:
+      "TinDog is a responsive landing page for a fictional app that helps dogs find companions—like Tinder, but for dogs. Built with HTML, CSS, and Bootstrap, it features a clean and modern layout with sections for features, pricing, testimonials, and download links. Ideal for showcasing UI layout and responsive design skills.",
+  },
+  {
+    href: "https://agency-website-plum.vercel.app/",
+    imageSrc: "/images/project4.png",
+    title: "🏢 Agency Website – Modern Business Landing Page",
+    techStack: "React.js • Tailwind CSS • Framer Motion",
+    description:
+      "A sleek, responsive landing page for a modern agency, built using React.js and styled with Tailwind CSS. Smooth animations are powered by Framer Motion to enhance user engagement. The design emphasizes clean layouts, service highlights, and strong visual hierarchy—ideal for showcasing agency portfolios or service-based businesses.",
+  },
+  {
+    href: "https://portfolio-01bv.onrender.com/",
+    imageSrc: "/images/project4.1.png",
+    title: "💼 Developer Portfolio – Personal Portfolio Website",
+    techStack: "React.js • Tailwind CSS • Framer Motion • Emailjs • Express.js",
+    description:
+      "A fully responsive personal portfolio website built with React.js and styled using Tailwind CSS, showcasing projects, skills, and contact information. The backend, powered by Node.js and Express.js, handles contact form submissions and routing. Designed to present your developer profile professionally with smooth navigation and a clean UI.",
+  },
+
+  {
+    href: "https://rjrahul007.github.io/Etch-a-sketch/",
+    imageSrc: "/images/project6.png",
+    title: "🎨 Etch-a-sketch – Interactive Drawing Pad",
+    techStack: "HTML • CSS • JavaScript",
+    description:
+      "Etch-a-Sketch is an interactive drawing pad where users can draw freely on a grid. Built using HTML, CSS, and JavaScript, it allows users to change colors, adjust grid sizes, and reset their artwork. The project demonstrates DOM manipulation, event handling, and dynamic styling.",
+  },
+  {
+    href: "https://rjrahul007.github.io/Simon-Game/",
+    imageSrc: "/images/project7.png",
+    title: "🎮 Simon Game – Memory Challenge Game",
+    techStack: "HTML • CSS • JavaScript",
+    description:
+      "The Simon Game is a fun and interactive memory challenge game built with HTML, CSS, and JavaScript. Players must follow and repeat an ever-growing sequence of colors and sounds, testing their memory and reaction time. This project demonstrates event handling, game logic, and DOM manipulation.",
+  },
+  {
+    href: "https://rjrahul007.github.io/Roll-Dice/",
+    imageSrc: "/images/project8.png",
+    title: "🎲 Roll Dice – Simple Dice Rolling Game",
+    techStack: "HTML • CSS • JavaScript",
+    description:
+      "A fun and interactive browser-based dice game built with vanilla JavaScript, HTML, and CSS. Each roll generates a random dice face for two players, making it a quick and engaging mini-game that demonstrates DOM manipulation and basic game logic.",
+  },
+  {
+    href: "https://rjrahul007.github.io/rock-paper-sissors/",
+    imageSrc: "/images/project9.png",
+    title: "✊✋✌️ Rock Paper Scissors – Classic Game",
+    techStack: "HTML • CSS • JavaScript",
+    description:
+      "A simple and fun Rock Paper Scissors game built with vanilla JavaScript, HTML, and CSS. The player competes against the computer with real-time result updates, visual cues, and score tracking. This project highlights core JavaScript logic, user interaction handling, and responsive design",
+  },
+];
+
 export {
   words,
   abilities,
@@ -336,4 +424,5 @@ export {
   techStackIcons,
   techStackImgs,
   navLinks,
+  projects,
 };
