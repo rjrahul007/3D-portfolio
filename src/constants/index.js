@@ -370,6 +370,14 @@ const projects = [
       "A sleek, responsive landing page for a modern agency, built using React.js and styled with Tailwind CSS. Smooth animations are powered by Framer Motion to enhance user engagement. The design emphasizes clean layouts, service highlights, and strong visual hierarchy—ideal for showcasing agency portfolios or service-based businesses.",
   },
   {
+    href: "https://dog-finder-94e1.onrender.com",
+    imageSrc: "/images/projectd.png",
+    title: "🐾 Dog Finder – Dog Breed Discovery App",
+    techStack: "React.js • Tailwind CSS • Framer Motion • Dog API",
+    description:
+      "Dog Finder is a responsive web application that helps users explore various dog breeds. Built with React.js and styled using Tailwind CSS, the app offers a clean and intuitive interface for browsing dog breeds, complete with images and brief descriptions. The app utilizes the Dog API to fetch breed data, ensuring a seamless user experience.",
+  },
+  {
     href: "https://portfolio-01bv.onrender.com/",
     imageSrc: "/images/project4.1.png",
     title: "💼 Developer Portfolio – Personal Portfolio Website",
