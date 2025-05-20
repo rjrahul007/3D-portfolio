@@ -351,7 +351,7 @@ const projects = [
     title: "🎬 Movie Explorer – React-Based Movie Website",
     techStack: "React.js • TMDB API • Appwrite • Tailwind CSS",
     description:
-      "A modern responsive website that uses TMDB API to show trending, top-rated, and upcoming movies. Built with React and Appwrite backend.",
+      "A modern, responsive movie discovery website that showcases trending, top-rated, and upcoming movies using the TMDB API. Built with React.js and Appwrite for backend services and storage. Each movie has a dynamic route displaying its YouTube trailer, overview, cast with images, detailed info, and ratings. The app features search functionality, smooth navigation, and an engaging UI for a rich user experience.",
   },
   {
     href: "https://rjrahul007.github.io/TinDog/",
