@@ -59,7 +59,10 @@ const Hero = () => {
                 id="counter"
               />
               <Button
-                text="Download CV"
+                href="/RJ007CV25SD.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                text="View CV"
                 className="md:w-80 md:h-16 w-60 h-12"
               />
             </div>
