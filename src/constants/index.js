@@ -354,12 +354,12 @@ const projects = [
       "A modern, responsive movie discovery website that showcases trending, top-rated, and upcoming movies using the TMDB API. Built with React.js and Appwrite for backend services and storage. Each movie has a dynamic route displaying its YouTube trailer, overview, cast with images, detailed info, and ratings. The app features search functionality, smooth navigation, and an engaging UI for a rich user experience.",
   },
   {
-    href: "https://rjrahul007.github.io/TinDog/",
-    imageSrc: "/images/project5.png",
-    title: "🐶 TinDog – Tinder for Dogs",
-    techStack: "HTML • CSS • Bootstrap",
+    href: "https://dog-finder-94e1.onrender.com",
+    imageSrc: "/images/projectd.png",
+    title: "🐾 Dog Finder – Dog Breed Discovery App",
+    techStack: "React.js • Tailwind CSS • Framer Motion • Dog API",
     description:
-      "TinDog is a responsive landing page for a fictional app that helps dogs find companions—like Tinder, but for dogs. Built with HTML, CSS, and Bootstrap, it features a clean and modern layout with sections for features, pricing, testimonials, and download links. Ideal for showcasing UI layout and responsive design skills.",
+      "Dog Finder is a responsive web application that helps users explore various dog breeds. Built with React.js and styled using Tailwind CSS, the app offers a clean and intuitive interface for browsing dog breeds, complete with images and brief descriptions. The app utilizes the Dog API to fetch breed data, ensuring a seamless user experience.",
   },
   {
     href: "https://agency-website-plum.vercel.app/",
@@ -370,12 +370,12 @@ const projects = [
       "A sleek, responsive landing page for a modern agency, built using React.js and styled with Tailwind CSS. Smooth animations are powered by Framer Motion to enhance user engagement. The design emphasizes clean layouts, service highlights, and strong visual hierarchy—ideal for showcasing agency portfolios or service-based businesses.",
   },
   {
-    href: "https://dog-finder-94e1.onrender.com",
-    imageSrc: "/images/projectd.png",
-    title: "🐾 Dog Finder – Dog Breed Discovery App",
-    techStack: "React.js • Tailwind CSS • Framer Motion • Dog API",
+    href: "https://rjrahul007.github.io/TinDog/",
+    imageSrc: "/images/project5.png",
+    title: "🐶 TinDog – Tinder for Dogs",
+    techStack: "HTML • CSS • Bootstrap",
     description:
-      "Dog Finder is a responsive web application that helps users explore various dog breeds. Built with React.js and styled using Tailwind CSS, the app offers a clean and intuitive interface for browsing dog breeds, complete with images and brief descriptions. The app utilizes the Dog API to fetch breed data, ensuring a seamless user experience.",
+      "TinDog is a responsive landing page for a fictional app that helps dogs find companions—like Tinder, but for dogs. Built with HTML, CSS, and Bootstrap, it features a clean and modern layout with sections for features, pricing, testimonials, and download links. Ideal for showcasing UI layout and responsive design skills.",
   },
   {
     href: "https://portfolio-01bv.onrender.com/",
