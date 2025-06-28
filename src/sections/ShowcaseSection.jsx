@@ -66,7 +66,7 @@ const AppShowcase = () => {
               >
                 <img
                   src={project.imageSrc}
-                  alt="Ace Car Rentals"
+                  alt={project.imageSrc}
                   className="w-full h-64 object-cover"
                 />
               </a>

@@ -329,6 +329,15 @@ const socialImgs = [
 
 const projects = [
   {
+    href: "https://sass-app-tau.vercel.app/",
+    imageSrc: "/images/sass-app1.png",
+    title: "📚 AI-Powered LMS SaaS – Interactive Learning Platform",
+    techStack:
+      "Next.js • Supabase • Clerk • Vapi • Tailwind CSS • shadcn/ui • TypeScript • Sentry",
+    description:
+      "A modern SaaS LMS application platform for an AI-driven learning app featuring real-time voice tutoring, user authentication, subscription billing, and session history. Built with Next.js, Supabase, and Clerk, it integrates clerk for payments and Vapi for interactive voice-based AI sessions. The UI is fully responsive and styled with Tailwind CSS and shadcn/ui, the UI is clean, responsive, and optimized for a seamless user experience across all devices.",
+  },
+  {
     href: "https://www.acecarrentals.in/",
     imageSrc: "/images/project1.png",
     title: "🚗 Ace Car Rentals – Self-Drive Car Booking Platform",
